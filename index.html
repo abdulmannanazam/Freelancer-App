@@ -562,7 +562,7 @@ function fillForm(kind, id){
 }
 
 // ---------- Save / Delete ----------
-$$('#cancel').onclick = $$('%cancel2')?.onclick = $$('%cancel3')?.onclick = ()=> false;
+
 $$('#cancel').addEventListener('click', e=>{e.preventDefault(); closeDrawer();});
 $$('#cancel2').addEventListener('click', e=>{e.preventDefault(); closeDrawer();});
 $$('#cancel3').addEventListener('click', e=>{e.preventDefault(); closeDrawer();});
